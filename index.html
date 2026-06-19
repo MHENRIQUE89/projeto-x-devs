@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto X-Devs - Semana do Zero ao Programador Contratado</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+  <link class=icone rel="shortcut icon" href="./src/imagens/logo.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="seta para voltar a imagem" />
+  </header>
+  <main class="personagens-slider">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+      <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+    </button>
+
+    <ul class="lista-personagens">
+
+      <li class="cartao selecionado fundo-6"> <!-- Professor Cafeze -->
+        <h2 class="nome">Professor Cafeze</h2>
+
+        <img class="imagem-personagem" src="./src/imagens/professor-cafeze.png" alt="Professor Cafeze" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Líder dos X-devs é um mentor para desenvolvedores iniciantes,
+            guiando-os com sua mente excepcional e uma xícara de café sempre à
+            mão. Ele possui habilidades telepáticas que lhe permitem
+            transmitir conhecimento de programação diretamente para a mente
+            dos novatos, acelerando sua aprendizagem.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3"> <!-- Místicode -->
+        <h2 class="nome">Místicode</h2>
+
+        <img class="imagem-personagem" src="./src/imagens/misticode.png" alt="Místicode" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Uma mutante de classe ômega em polimorfismo de dados e engenharia social tática.
+            Ela não muda apenas sua aparência física; ela reescreve seu próprio código-fonte
+            genético para simular qualquer pessoa ou sistema em tempo real,
+            tornando-a a espiã digital suprema.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-5"> <!-- Loggineto -->
+        <h2 class="nome">Loggineto</h2>
+
+        <img class="imagem-personagem" src="src/imagens/loggineto.png" alt="Loggineto" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Ele possui a capacidade única de influenciar e redirecionar fluxos
+            de dados apenas com a força de sua vontade, permitindo-lhe acessar
+            e alterar informações de qualquer dispositivo conectado à rede.
+            Seu domínio sobre a segurança digital o torna um adversário
+            formidável para qualquer equipe de TI, pois ele pode causar
+            falhas, acessar dados confidenciais e criar barreiras de segurança
+            quase impenetráveis.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-4"> <!-- Tempestade Solar -->
+        <h2 class="nome">Tempestade Solar</h2>
+
+        <img class="imagem-personagem" src="src/imagens/tempestade-solar.png" alt="Tempestade Solar" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            No universo dos desenvolvedores, Tempestade Solar é conhecida como
+            uma das vilãs mais formidáveis. Ela tem o poder de gerar explosões
+            solares massivas que perturbam as redes de comunicação, afetando a
+            internet e todos os dispositivos conectados. Esses surtos solares
+            causam caos no mundo digital, desestabilizando servidores,
+            interrompendo conexões e causando perda de dados críticos.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-6"> <!-- Javerine -->
+        <h2 class="nome">Javerine</h2>
+
+        <img class="imagem-personagem" src="src/imagens/javerine.png" alt="Javerine" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            O mutante mais resiliente da equipe.
+            Ele possui uma "imutabilidade" genética, o que significa que
+            é virtualmente impossível corromper seu código-fonte
+            ou alterar sua estrutura biológica. Como um bom
+            desenvolvedor Java, ele é robusto, estável e sempre
+            consegue "compilar" suas feridas rapidamente
+            em qualquer sistema operacional.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-7"> <!-- Jean Grey Scale -->
+        <h2 class="nome">Jean Grey Scale</h2>
+
+        <img class="imagem-personagem" src="src/imagens/jean-grey-scale.png" alt="Jean Grey Scale" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Uma mutante de classe ômega com poderes de processamento gráfico e
+            processamento de imagem em nível quântico. Ela pode ver o mundo em
+            "tons de cinza", percebendo a estrutura de qualquer objeto antes
+            de ele ser renderizado na realidade. Quando atinge seu poder máximo,
+            ela manipula a cor e a forma da própria realidade.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-1"> <!-- seu clope -->
+        <h2 class="nome">Seu Clope</h2>
+
+        <img class="imagem-personagem" src="src/imagens/seuclope.png" alt="Seu Clope" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Seu Clope é conhecido por sua firme convicção de que as novas
+            linguagens de programação são apenas modismos passageiros e
+            desnecessários, e ele se recusa a adotar qualquer uma delas,
+            alegando que nada pode superar a robustez e a eficácia do COBOL
+            para resolver problemas reais. Seu estilo de trabalho é metódico e
+            preciso, e ele valoriza acima de tudo a estabilidade e a
+            confiabilidade em seu código.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2"> <!-- Vamplena -->
+        <h2 class="nome">Vamplena</h2>
+
+        <img class="imagem-personagem" src="src/imagens/vamplena.png" alt="Vamplena" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Apesar de seu objetivo nobre de se tornar sênior, ela luta com o
+            dilema ético de seu poder, pois teme tornar-se dependente da
+            expertise alheia em vez de desenvolver a sua própria. Sua jornada
+            é marcada por um intenso desejo de autodesenvolvimento e pela
+            busca de um equilíbrio entre aprender com os outros e cultivar seu
+            próprio talento genuíno.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-5"> <!-- Feratorial -->
+        <h2 class="nome">Feratorial</h2>
+
+        <img class="imagem-personagem" src="src/imagens/feratorial.png" alt="Feratorial" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            O gênio da matemática da equipe.
+            Ele consegue processar algoritmos recursivos complexos em frações de segundo.
+            Se tiver um problema de performance, ele consegue calcular a complexidade
+            de tempo de qualquer função apenas olhando para o código, sempre otimizando
+            tudo para o melhor cenário possível.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3"> <!-- Jubiléia -->
+        <h2 class="nome">Jubiléia</h2>
+
+        <img class="imagem-personagem" src="src/imagens/jubileia.png" alt="Jubiléia" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Uma jovem desenvolvedora em treinamento, Jubiléia já se destaca
+            por sua peculiaridade: uma aversão declarada a temas claros em
+            ambientes de programação. Ela tem uma preferência intensa por
+            temas escuros, que considera mais suaves e agradáveis para seus
+            olhos, especialmente durante longas sessões de codificação à
+            noite.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-4"> <!-- Noturno Nuvem -->
+        <h2 class="nome">Noturno Nuvem</h2>
+
+        <img class="imagem-personagem" src="src/imagens/noturno-nuvem.png" alt="Noturno Nuvem" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            O mestre do teletransporte de dados.
+            Ele consegue realizar deploy de si mesmo em qualquer lugar instantaneamente,
+            "saltando" entre servidores locais e ambientes de nuvem.
+            É praticamente impossível rastrear sua conexão, pois ele nunca permanece
+            em um único IP por mais de alguns milissegundos. É o ninja da latência zero.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-6"> <!-- Lince Integra -->
+        <h2 class="nome">Lince Integra</h2>
+
+        <img class="imagem-personagem" src="src/imagens/lince-integra.png" alt="Lince Integra" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Uma desenvolvedora ágil que domina a arte da integração de sistemas.
+            Sua habilidade mutante permite que ela "atravesse" qualquer firewall
+            ou barreira de segurança, garantindo que os dados fluam livremente
+            entre diferentes ambientes sem interrupções.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2"> <!-- Colossustainer -->
+        <h2 class="nome">Colossustainer</h2>
+
+        <img class="imagem-personagem" src="src/imagens/colosustainer.png" alt="Colossustainer" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Ele é o "container" humano da equipe.
+            Sua pele é composta por uma camada impenetrável de Docker,
+            tornando-o completamente isolado de qualquer ambiente externo.
+            Ele pode ser executado ou arremessado em qualquer servidor
+            ou sistema operacional, e o resultado será sempre o mesmo:
+            ele funciona perfeitamente, sem depender de bibliotecas
+            ou configurações externas.
+          </p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3"> <!-- Gammit -->
+        <h2 class="nome">Gammit</h2>
+
+        <img class="imagem-personagem" src="src/imagens/gammit.png" alt="Gammit" />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Especialista em jogadas arriscadas.
+            Ele carrega cartas que, na verdade,
+            são commits carregados com código instável.
+            Quando ele as lança, o deploy acontece instantaneamente.
+            É um desenvolvedor habilidoso, mas seu estilo de vida
+            "commitar e rezar" deixa seus colegas
+            de equipe sempre na expectativa de um possível rollback.
+          </p>
+        </div>
+      </li>
+
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+      <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+    </button>
+  </main>
+
+  <script src="./src/js/index.js"></script>
+
+</body>
+
+<footer class="rodape">
+  <h3>© 2026 MHDev. Todos os Direitos Reservados</h3>
+  <p>Landing Page desenvolvida sob a mentoria dos irmãos Roberto Dias e Ricado Dias do canal Dev em Dobro.</p>
+</footer>
+
+
+</html>
